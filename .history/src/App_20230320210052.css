@@ -1,0 +1,9 @@
+.order-button {
+  display: flex;
+  padding: 2px;
+  gap: 4px;
+}
+
+.order-button:hover > .icon {
+  transition: transform 200ms cubic-bezier(0, 0.67, 0.6, 1.24) 0s;
+}

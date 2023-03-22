@@ -1,0 +1,8 @@
+.order-button {
+  display: flex;
+}
+
+.order-button:hover > .icon {
+  transform: translate(0px, 0px) rotate(0deg) scale(1);
+  will-change: transform;
+}
